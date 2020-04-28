@@ -24,3 +24,6 @@
 
 # Bash
 /system/xbin/bash          u:object_r:shell_exec:s0
+
+# Theme
+/data/theme(/.*)?          u:object_r:theme_data_file:s0
