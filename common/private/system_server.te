@@ -11,3 +11,5 @@ hal_client_domain(system_server, hal_lineage_powershare)
 
 # Long screenshot
 add_service(system_server, longshot_service)
+
+add_service(system_server, applock_service);
